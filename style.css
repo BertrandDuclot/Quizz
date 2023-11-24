@@ -1,0 +1,105 @@
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    width:800px;
+    margin: 20px auto;
+    background-color: black;
+}
+
+.question{
+    font-weight: 300;
+    color:white;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+#soumettre{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(207, 20, 20);
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#soumettre:hover{
+    background-color: rgb(134, 18, 18);
+}
+
+.selected{
+    background-color: green;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 25%;
+    height: 60px;
+    margin-left: 10%;
+    border: solid 1px gray;
+    border: solid 1px #808080;
+}
+
+h1 {
+    text-align: center;
+    color:red;
+}
+
+#quizz {
+    text-align: center;
+}
+
+#soumettre-container, #resultats {
+    text-align:center;
+}
+
+#resultats {
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.remarques {
+    color:rgba(255, 255, 255, 0.349);
+    margin: 10px 0 10px 0;
+    visibility: hidden;
+}
+
+/* A appliquer pour masquer les boutons radios*/
+   
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+label:hover {
+  background-color: red;
+}
+
+input[type="radio"]:checked + label {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
